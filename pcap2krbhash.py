@@ -6,7 +6,7 @@ from scapy.all import *
 
 def main(args):
     if len(args) == 0:
-        print("You didn't specified the path to a .pcap file\nExample: python3 extractkrbhashfrompcap.py dump.pcap")
+        print("You didn't specified the path to a .pcap file\nExample: python3 pcap2krbhash.py dump.pcap")
         return 1
 
     pcap_file = args[0]
